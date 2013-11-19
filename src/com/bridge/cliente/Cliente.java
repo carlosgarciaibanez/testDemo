@@ -6,8 +6,8 @@ import com.bridge.concreteImplementor.GimnasioHolmes;
 import com.bridge.concreteImplementor.GimnasioPlace;
 import com.bridge.concreteImplementor.GimnasioPrivado;
 import com.bridge.concreteImplementor.GimnasioPublico;
-import com.bridge.refinedabstraction.GimnasioRefined;
-import com.bridge.refinedabstraction.GimnasioRefinedFanta;
+import com.bridge.refinedabstraction.GimnasioRefinedOne;
+import com.bridge.refinedabstraction.GimnasioRefinedTwo;
 
 public class Cliente {
 
@@ -16,7 +16,7 @@ public class Cliente {
 	 */
 	public static void main(String[] args) {
 		
-		GimnasioAbstract cliente1 = new GimnasioRefined(new GimnasioPublico());		
+		GimnasioAbstract cliente1 = new GimnasioRefinedOne(new GimnasioPublico());		
 		
 		cliente1.hacerCardio();
 		cliente1.hacerTrenSuperior();

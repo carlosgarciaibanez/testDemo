@@ -3,9 +3,9 @@ package com.bridge.refinedabstraction;
 import com.bridge.abstraction.GimnasioAbstract;
 import com.bridge.implementor.GimnasioImplementor;
 
-public class GimnasioRefinedFanta extends GimnasioAbstract {
+public class GimnasioRefinedTwo extends GimnasioAbstract {
 
-	public GimnasioRefinedFanta(GimnasioImplementor gymImpl) {
+	public GimnasioRefinedTwo(GimnasioImplementor gymImpl) {
 		super(gymImpl);
 		// TODO Auto-generated constructor stub
 	}
